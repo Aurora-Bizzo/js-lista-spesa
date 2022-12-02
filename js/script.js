@@ -12,7 +12,7 @@ while (i < ingredients.length) {
     list = ingredients[i];
     i++;
     
-    list_item += `<li>${i}</li>`;
+    list_item += `<li>${list}</li>`;
     shopping_notes.innerHTML = list_item;
 }
 
